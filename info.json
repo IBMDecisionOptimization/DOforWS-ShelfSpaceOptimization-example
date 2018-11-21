@@ -1,0 +1,9 @@
+{
+	"provider": ["IBM"], 
+	"name":  "DO for WS Shelf Space Optimization example" ,
+	"model": [ "CPLEX" ],
+	"development": [ "Python" ],
+	"category": [ {"DOforWS":["DO for WS"]} ],
+	"industry": [ "Retail" ],
+	"abstract": "Position SKUs on shelfs according to demand, availability and constraints."
+}

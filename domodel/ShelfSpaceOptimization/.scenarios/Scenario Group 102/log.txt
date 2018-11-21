@@ -1,0 +1,884 @@
+[2018-11-20T14:06:11Z, WARNING] : JavaScript statements are not supported.
+[2018-11-20T14:06:11Z, WARNING] : JavaScript statements are not supported.
+[2018-11-20T14:06:11Z, INFO] Initialization of Parameters.
+[2018-11-20T14:06:11Z, INFO] Initialization of TParameters.
+[2018-11-20T14:06:11Z, INFO] Initialization of AdjTypes.
+[2018-11-20T14:06:11Z, INFO] Initialization of TAdjTypes.
+[2018-11-20T14:06:11Z, INFO] Initialization of Shelves.
+[2018-11-20T14:06:11Z, INFO] Initialization of TShelves.
+[2018-11-20T14:06:11Z, INFO] Initialization of SKUShelves.
+[2018-11-20T14:06:11Z, INFO] Initialization of TSKUShelves.
+[2018-11-20T14:06:11Z, INFO] Initialization of GroupFacingLimits.
+[2018-11-20T14:06:11Z, INFO] Initialization of TGroupFacingLimits.
+[2018-11-20T14:06:11Z, INFO] Initialization of SKUs.
+[2018-11-20T14:06:11Z, INFO] Initialization of TSKUs.
+[2018-11-20T14:06:11Z, INFO] Initialization of Groups.
+[2018-11-20T14:06:11Z, INFO] Initialization of TGroups.
+[2018-11-20T14:06:11Z, INFO] Initialization of booleanValues.
+[2018-11-20T14:06:11Z, INFO] Initialization of GroupsReqdOnShelves.
+[2018-11-20T14:06:11Z, INFO] Initialization of TGroupsReqdOnShelves.
+[2018-11-20T14:06:11Z, INFO] Initialization of GroupAdjacencies.
+[2018-11-20T14:06:11Z, INFO] Initialization of TGroupAdjacencies.
+[2018-11-20T14:06:11Z, INFO] Initialization of Weights.
+[2018-11-20T14:06:11Z, INFO] Initialization of TWeights.
+[2018-11-20T14:06:11Z, INFO] Initialization of GroupIDs.
+[2018-11-20T14:06:11Z, INFO] Initialization of GroupsWithSpaceElasticity.
+[2018-11-20T14:06:11Z, INFO] Initialization of Levels.
+[2018-11-20T14:06:11Z, INFO] Initialization of GroupsForLevel.
+[2018-11-20T14:06:11Z, INFO] Initialization of GroupForID.
+[2018-11-20T14:06:11Z, INFO] Initialization of SKUIDs.
+[2018-11-20T14:06:11Z, INFO] Initialization of SKUsForGroup.
+[2018-11-20T14:06:12Z, INFO] Initialization of ShelfIDs.
+[2018-11-20T14:06:12Z, INFO] Initialization of Weight.
+[2018-11-20T14:06:12Z, INFO] Initialization of expectedSales.
+[2018-11-20T14:06:12Z, INFO] Initialization of es.
+[2018-11-20T14:06:12Z, INFO] Initialization of emptySpacePenalty.
+[2018-11-20T14:06:12Z, INFO] Initialization of emptySpaceOnShelfVar.
+[2018-11-20T14:06:12Z, INFO] Initialization of shortagePenalty.
+[2018-11-20T14:06:12Z, INFO] Initialization of unitsShortageVar.
+[2018-11-20T14:06:12Z, INFO] Initialization of rectangularityPenalty.
+[2018-11-20T14:06:12Z, INFO] Initialization of RectangularGroupShelves.
+[2018-11-20T14:06:12Z, INFO] Initialization of GroupShelves.
+[2018-11-20T14:06:12Z, INFO] Initialization of SKUGroupShelf.
+[2018-11-20T14:06:12Z, INFO] Initialization of ShelfForID.
+[2018-11-20T14:06:12Z, INFO] Initialization of rectShapeLeftSlack.
+[2018-11-20T14:06:12Z, INFO] Initialization of rectShapeRtSlack.
+[2018-11-20T14:06:12Z, INFO] Initialization of squarenessPenalty.
+[2018-11-20T14:06:12Z, INFO] Initialization of SquareGroups.
+[2018-11-20T14:06:12Z, INFO] Initialization of squareShapeSlack.
+[2018-11-20T14:06:12Z, INFO] Initialization of avgDisplayPricePenalty.
+[2018-11-20T14:06:12Z, INFO] Initialization of minAvgTargetPriceSlack.
+[2018-11-20T14:06:12Z, INFO] Initialization of maxAvgTargetPriceSlack.
+[2018-11-20T14:06:12Z, INFO] Initialization of numFacingsGroup.
+[2018-11-20T14:06:12Z, INFO] Initialization of numFacingsSKUOnShelf.
+[2018-11-20T14:06:12Z, INFO] Initialization of MaxFacings.
+[2018-11-20T14:06:12Z, INFO] Initialization of SKUForID.
+[2018-11-20T14:06:12Z, INFO] Initialization of numFacingsGroupOnShelf.
+[2018-11-20T14:06:12Z, INFO] Initialization of allocWidthGroupOnShelf.
+[2018-11-20T14:06:12Z, INFO] Initialization of isSKUOnShelf.
+[2018-11-20T14:06:12Z, INFO] Initialization of offsetSKUOnShelf.
+[2018-11-20T14:06:12Z, INFO] Initialization of isGroupOnShelf.
+[2018-11-20T14:06:12Z, INFO] Initialization of GroupAdjacentShelves.
+[2018-11-20T14:06:12Z, INFO] Initialization of SKUGroupShelfPair.
+[2018-11-20T14:06:12Z, INFO] Initialization of isGroupOnAdjShelf.
+[2018-11-20T14:06:12Z, INFO] Initialization of offsetGroupOnShelf.
+[2018-11-20T14:06:12Z, INFO] Initialization of numRowLevelsGroup.
+[2018-11-20T14:06:12Z, INFO] Initialization of OrderedGroupsForLevel.
+[2018-11-20T14:06:12Z, INFO] Initialization of GroupsWithLeftAdjacency.
+[2018-11-20T14:06:12Z, INFO] Initialization of GroupsAbove.
+[2018-11-20T14:06:12Z, INFO] Initialization of GroupTopAdjacencies.
+[2018-11-20T14:06:12Z, INFO] Initialization of lowestShelfForGroup.
+[2018-11-20T14:06:12Z, INFO] Initialization of MaxRowLevel.
+[2018-11-20T14:06:12Z, INFO] Initialization of RowLevels.
+[2018-11-20T14:06:12Z, INFO] Initialization of GroupsBelow.
+[2018-11-20T14:06:12Z, INFO] Initialization of highestShelfForGroup.
+[2018-11-20T14:06:12Z, INFO] Initialization of numFacingsSKU.
+[2018-11-20T14:06:12Z, INFO] Initialization of Parameter.
+[2018-11-20T14:06:12Z, WARNING] : JavaScript statements are not supported.
+[2018-11-20T14:06:12Z, WARNING] Effective number of workers to be used for solve has been updated to: '1' (original value was: '0')
+[2018-11-20T14:06:12Z, INFO] CPXPARAM_TimeLimit                               180
+[2018-11-20T14:06:12Z, INFO] CPXPARAM_Threads                                 1
+[2018-11-20T14:06:12Z, INFO] CPXPARAM_MIP_Strategy_RINSHeur                   50
+[2018-11-20T14:06:12Z, INFO] Found incumbent of value -31450.000000 after 0.00 sec. (0.34 ticks)
+[2018-11-20T14:06:12Z, INFO] Tried aggregator 14 times.
+[2018-11-20T14:06:12Z, INFO] MIP Presolve eliminated 4065 rows and 3 columns.
+[2018-11-20T14:06:12Z, INFO] MIP Presolve modified 3650 coefficients.
+[2018-11-20T14:06:12Z, INFO] Aggregator did 1904 substitutions.
+[2018-11-20T14:06:12Z, INFO] Reduced MIP has 5290 rows, 4690 columns, and 30217 nonzeros.
+[2018-11-20T14:06:12Z, INFO] Reduced MIP has 1812 binaries, 1518 generals, 24 SOSs, and 0 indicators.
+[2018-11-20T14:06:12Z, INFO] Presolve time = 0.29 sec. (170.78 ticks)
+[2018-11-20T14:06:12Z, INFO] Probing time = 0.01 sec. (3.46 ticks)
+[2018-11-20T14:06:12Z, INFO] Tried aggregator 1 time.
+[2018-11-20T14:06:12Z, INFO] Reduced MIP has 5290 rows, 4690 columns, and 30217 nonzeros.
+[2018-11-20T14:06:12Z, INFO] Reduced MIP has 1812 binaries, 1591 generals, 24 SOSs, and 0 indicators.
+[2018-11-20T14:06:12Z, INFO] Presolve time = 0.04 sec. (25.01 ticks)
+[2018-11-20T14:06:12Z, INFO] Probing time = 0.01 sec. (3.37 ticks)
+[2018-11-20T14:06:12Z, INFO] Clique table members: 3812.
+[2018-11-20T14:06:12Z, INFO] MIP emphasis: balance optimality and feasibility.
+[2018-11-20T14:06:12Z, INFO] MIP search method: dynamic search.
+[2018-11-20T14:06:12Z, INFO] Parallel mode: none, using 1 thread.
+[2018-11-20T14:06:14Z, INFO] Root relaxation solution time = 1.57 sec. (953.89 ticks)
+[2018-11-20T14:06:14Z, INFO]         Nodes                                         Cuts/
+[2018-11-20T14:06:14Z, INFO]    Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+[2018-11-20T14:06:14Z, INFO] *     0+    0                       -31450.0000  1869877.3679              --- 
+[2018-11-20T14:06:14Z, INFO]       0     0    14507.4077   479   -31450.0000    14507.4077     9268  146.13%
+[2018-11-20T14:06:14Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:06:14Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 864
+[2018-11-20T14:06:14Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:06:14Z, INFO] ------kpi- KPI.shortagePenaltyKPI 2281
+[2018-11-20T14:06:14Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:06:14Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 0
+[2018-11-20T14:06:14Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:06:14Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 0
+[2018-11-20T14:06:14Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:06:14Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:06:14Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:06:14Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:06:14Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:06:14Z, INFO] Initialization of TResults.
+[2018-11-20T14:06:14Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:06:14Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:06:14Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:06:14Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:06:14Z, INFO] Initialization of Results.
+[2018-11-20T14:06:14Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:06:14Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:06:14Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:06:14Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 864
+[2018-11-20T14:06:14Z, INFO] ------kpi- KPI.shortagePenaltyKPI 2281
+[2018-11-20T14:06:14Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 0
+[2018-11-20T14:06:14Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 0
+[2018-11-20T14:06:14Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:06:14Z, INFO] attachment : kpis.csv
+[2018-11-20T14:06:14Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:06:14Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:06:14Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:06:14Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:06:14Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:06:14Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:06:14Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:06:14Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:06:14Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:06:14Z, INFO] Initialization of TResults.
+[2018-11-20T14:06:14Z, INFO] Initialization of Results.
+[2018-11-20T14:06:14Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:06:14Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:06:14Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:06:14Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:06:14Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:06:14Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:06:14Z, INFO] attachment : unitsShortage.csv
+[2018-11-20T14:06:14Z, INFO] attachment : GroupOnShelfPlacement.csv
+[2018-11-20T14:06:14Z, INFO] attachment : GroupFacings.csv
+[2018-11-20T14:06:14Z, INFO] attachment : SKUOnShelfPlacement.csv
+[2018-11-20T14:06:14Z, INFO] attachment : Results.csv
+[2018-11-20T14:06:14Z, INFO] attachment : emptySpaceOnShelf.csv
+[2018-11-20T14:06:15Z, INFO]       0     0    14506.8811   612   -31450.0000     Cuts: 445    11188  146.13%
+[2018-11-20T14:06:15Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:06:15Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 864
+[2018-11-20T14:06:15Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:06:15Z, INFO] ------kpi- KPI.shortagePenaltyKPI 2281
+[2018-11-20T14:06:15Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:06:15Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 0
+[2018-11-20T14:06:15Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:06:15Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 0
+[2018-11-20T14:06:15Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:06:15Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:06:15Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:06:15Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:06:15Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:06:15Z, INFO] Initialization of TResults.
+[2018-11-20T14:06:15Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:06:15Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:06:15Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:06:15Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:06:15Z, INFO] Initialization of Results.
+[2018-11-20T14:06:15Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:06:15Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:06:15Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:06:15Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 864
+[2018-11-20T14:06:15Z, INFO] ------kpi- KPI.shortagePenaltyKPI 2281
+[2018-11-20T14:06:15Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 0
+[2018-11-20T14:06:15Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 0
+[2018-11-20T14:06:15Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:06:15Z, INFO] attachment : kpis.csv
+[2018-11-20T14:06:15Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:06:15Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:06:15Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:06:15Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:06:15Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:06:15Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:06:15Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:06:15Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:06:15Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:06:15Z, INFO] Initialization of TResults.
+[2018-11-20T14:06:15Z, INFO] Initialization of Results.
+[2018-11-20T14:06:15Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:06:15Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:06:15Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:06:15Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:06:15Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:06:15Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:06:15Z, INFO] attachment : unitsShortage.csv
+[2018-11-20T14:06:15Z, INFO] attachment : GroupOnShelfPlacement.csv
+[2018-11-20T14:06:15Z, INFO] attachment : GroupFacings.csv
+[2018-11-20T14:06:15Z, INFO] attachment : SKUOnShelfPlacement.csv
+[2018-11-20T14:06:15Z, INFO] attachment : Results.csv
+[2018-11-20T14:06:15Z, INFO] attachment : emptySpaceOnShelf.csv
+[2018-11-20T14:06:15Z, INFO]       0     0    14506.5697   644   -31450.0000     Cuts: 337    11701  146.13%
+[2018-11-20T14:06:15Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:06:15Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 864
+[2018-11-20T14:06:15Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:06:15Z, INFO] ------kpi- KPI.shortagePenaltyKPI 2281
+[2018-11-20T14:06:15Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:06:15Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 0
+[2018-11-20T14:06:15Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:06:15Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 0
+[2018-11-20T14:06:15Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:06:15Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:06:15Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:06:15Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:06:15Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:06:15Z, INFO] Initialization of TResults.
+[2018-11-20T14:06:15Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:06:15Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:06:15Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:06:15Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:06:15Z, INFO] Initialization of Results.
+[2018-11-20T14:06:15Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:06:15Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:06:15Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:06:15Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 864
+[2018-11-20T14:06:15Z, INFO] ------kpi- KPI.shortagePenaltyKPI 2281
+[2018-11-20T14:06:15Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 0
+[2018-11-20T14:06:15Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 0
+[2018-11-20T14:06:15Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:06:15Z, INFO] attachment : kpis.csv
+[2018-11-20T14:06:15Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:06:15Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:06:15Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:06:15Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:06:15Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:06:15Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:06:15Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:06:15Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:06:15Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:06:15Z, INFO] Initialization of TResults.
+[2018-11-20T14:06:15Z, INFO] Initialization of Results.
+[2018-11-20T14:06:15Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:06:15Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:06:15Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:06:15Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:06:15Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:06:15Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:06:15Z, INFO] attachment : unitsShortage.csv
+[2018-11-20T14:06:15Z, INFO] attachment : GroupOnShelfPlacement.csv
+[2018-11-20T14:06:15Z, INFO] attachment : GroupFacings.csv
+[2018-11-20T14:06:15Z, INFO] attachment : SKUOnShelfPlacement.csv
+[2018-11-20T14:06:15Z, INFO] attachment : Results.csv
+[2018-11-20T14:06:15Z, INFO] attachment : emptySpaceOnShelf.csv
+[2018-11-20T14:06:15Z, INFO]       0     0    14506.5697   697   -31450.0000     Cuts: 202    12109  146.13%
+[2018-11-20T14:06:16Z, INFO]       0     0    14506.5697   573   -31450.0000      Cuts: 82    12324  146.13%
+[2018-11-20T14:06:16Z, INFO]       0     0    14506.5697   600   -31450.0000     Cuts: 274    12686  146.13%
+[2018-11-20T14:06:17Z, INFO] *     0+    0                         2597.8709    14506.5697           458.40%
+[2018-11-20T14:06:18Z, INFO] *     0+    0                         2601.3709    14506.5697           457.65%
+[2018-11-20T14:06:18Z, INFO] *     0+    0                         2659.3396    14506.5697           445.50%
+[2018-11-20T14:06:18Z, INFO] *     0+    0                         2678.6723    14506.5697           441.56%
+[2018-11-20T14:06:19Z, INFO] *     0+    0                         2846.1230    14506.5697           409.70%
+[2018-11-20T14:06:19Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:06:19Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 10.5
+[2018-11-20T14:06:19Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:06:19Z, INFO] ------kpi- KPI.shortagePenaltyKPI 1501
+[2018-11-20T14:06:19Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:06:19Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 29
+[2018-11-20T14:06:19Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:06:19Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 99
+[2018-11-20T14:06:19Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:06:19Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:06:19Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:06:19Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:06:19Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:06:19Z, INFO] Initialization of TResults.
+[2018-11-20T14:06:19Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:06:19Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:06:19Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:06:19Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:06:19Z, INFO] Initialization of Results.
+[2018-11-20T14:06:19Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:06:19Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:06:19Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:06:19Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 10.5
+[2018-11-20T14:06:19Z, INFO] ------kpi- KPI.shortagePenaltyKPI 1501
+[2018-11-20T14:06:19Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 29
+[2018-11-20T14:06:19Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 99
+[2018-11-20T14:06:19Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:06:19Z, INFO] attachment : kpis.csv
+[2018-11-20T14:06:19Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:06:19Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:06:19Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:06:19Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:06:19Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:06:19Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:06:19Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:06:19Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:06:19Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:06:19Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:06:19Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:06:19Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:06:19Z, INFO] Initialization of TResults.
+[2018-11-20T14:06:19Z, INFO] Initialization of Results.
+[2018-11-20T14:06:19Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:06:19Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:06:19Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:06:19Z, INFO] attachment : unitsShortage.csv
+[2018-11-20T14:06:19Z, INFO] attachment : GroupOnShelfPlacement.csv
+[2018-11-20T14:06:19Z, INFO] attachment : GroupFacings.csv
+[2018-11-20T14:06:19Z, INFO] attachment : SKUOnShelfPlacement.csv
+[2018-11-20T14:06:19Z, INFO] attachment : Results.csv
+[2018-11-20T14:06:19Z, INFO] attachment : emptySpaceOnShelf.csv
+[2018-11-20T14:06:20Z, INFO]       0     2    14506.5697   530     2846.1230    14506.5697    12686  409.70%
+[2018-11-20T14:06:20Z, INFO] Elapsed time = 7.75 sec. (4796.17 ticks, tree = 0.01 MB, solutions = 5)
+[2018-11-20T14:06:20Z, INFO]      17    19    14506.1131   498     2846.1230    14506.5697    14256  409.70%
+[2018-11-20T14:06:20Z, INFO]      20    22    14506.1311   496     2846.1230    14506.5697    15054  409.70%
+[2018-11-20T14:06:21Z, INFO] *    50+   50                         9058.6722    14506.5697            60.14%
+[2018-11-20T14:06:22Z, INFO] *    50+   50                         9064.7822    14506.5697            60.03%
+[2018-11-20T14:06:23Z, INFO] *    50+   50                         9239.7472    14506.5697            57.00%
+[2018-11-20T14:06:23Z, INFO]      50    52    14505.2053   433     9239.7472    14506.5697    16604   57.00%
+[2018-11-20T14:06:23Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:06:23Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 8
+[2018-11-20T14:06:23Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:06:23Z, INFO] ------kpi- KPI.shortagePenaltyKPI 1489
+[2018-11-20T14:06:23Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:06:23Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 71
+[2018-11-20T14:06:23Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:06:23Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 86
+[2018-11-20T14:06:23Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:06:23Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 34
+[2018-11-20T14:06:23Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:06:23Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:06:23Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:06:23Z, INFO] Initialization of TResults.
+[2018-11-20T14:06:23Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:06:23Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:06:23Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:06:23Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:06:23Z, INFO] Initialization of Results.
+[2018-11-20T14:06:23Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:06:23Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:06:23Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:06:23Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 8
+[2018-11-20T14:06:23Z, INFO] ------kpi- KPI.shortagePenaltyKPI 1489
+[2018-11-20T14:06:23Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 71
+[2018-11-20T14:06:23Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 86
+[2018-11-20T14:06:23Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 34
+[2018-11-20T14:06:23Z, INFO] attachment : kpis.csv
+[2018-11-20T14:06:23Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:06:23Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:06:23Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:06:23Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:06:23Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:06:23Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:06:23Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:06:23Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:06:23Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:06:23Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:06:23Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:06:23Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:06:23Z, INFO] Initialization of TResults.
+[2018-11-20T14:06:23Z, INFO] Initialization of Results.
+[2018-11-20T14:06:23Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:06:23Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:06:23Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:06:23Z, INFO] attachment : unitsShortage.csv
+[2018-11-20T14:06:23Z, INFO] attachment : GroupOnShelfPlacement.csv
+[2018-11-20T14:06:23Z, INFO] attachment : GroupFacings.csv
+[2018-11-20T14:06:23Z, INFO] attachment : SKUOnShelfPlacement.csv
+[2018-11-20T14:06:23Z, INFO] attachment : Results.csv
+[2018-11-20T14:06:23Z, INFO] attachment : emptySpaceOnShelf.csv
+[2018-11-20T14:06:23Z, INFO]      84    86    14492.3581   350     9239.7472    14506.5697    17990   57.00%
+[2018-11-20T14:06:24Z, INFO] *   100+  100                         9275.4023    14506.5697            56.40%
+[2018-11-20T14:06:24Z, INFO]     100   102    14492.2933   344     9275.4023    14506.5697    18494   56.40%
+[2018-11-20T14:06:24Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:06:24Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 7
+[2018-11-20T14:06:24Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:06:24Z, INFO] ------kpi- KPI.shortagePenaltyKPI 1483
+[2018-11-20T14:06:24Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:06:24Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 58
+[2018-11-20T14:06:24Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:06:24Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 87
+[2018-11-20T14:06:24Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:06:24Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 57
+[2018-11-20T14:06:24Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:06:24Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:06:24Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:06:24Z, INFO] Initialization of TResults.
+[2018-11-20T14:06:24Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:06:24Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:06:24Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:06:24Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:06:24Z, INFO] Initialization of Results.
+[2018-11-20T14:06:24Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:06:24Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:06:24Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:06:24Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 7
+[2018-11-20T14:06:24Z, INFO] ------kpi- KPI.shortagePenaltyKPI 1483
+[2018-11-20T14:06:24Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 58
+[2018-11-20T14:06:24Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 87
+[2018-11-20T14:06:24Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 57
+[2018-11-20T14:06:24Z, INFO] attachment : kpis.csv
+[2018-11-20T14:06:24Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:06:24Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:06:24Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:06:24Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:06:24Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:06:24Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:06:24Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:06:24Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:06:24Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:06:24Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:06:24Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:06:24Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:06:24Z, INFO] Initialization of TResults.
+[2018-11-20T14:06:24Z, INFO] Initialization of Results.
+[2018-11-20T14:06:24Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:06:24Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:06:24Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:06:24Z, INFO] attachment : unitsShortage.csv
+[2018-11-20T14:06:24Z, INFO] attachment : GroupOnShelfPlacement.csv
+[2018-11-20T14:06:24Z, INFO] attachment : GroupFacings.csv
+[2018-11-20T14:06:24Z, INFO] attachment : SKUOnShelfPlacement.csv
+[2018-11-20T14:06:24Z, INFO] attachment : Results.csv
+[2018-11-20T14:06:24Z, INFO] attachment : emptySpaceOnShelf.csv
+[2018-11-20T14:06:25Z, INFO] *   150+  150                        10706.1664    14506.5697            35.50%
+[2018-11-20T14:06:25Z, INFO] *   150+  150                        11054.2404    14506.5697            31.23%
+[2018-11-20T14:06:25Z, INFO] *   150+  150                        11055.7404    14506.5697            31.21%
+[2018-11-20T14:06:26Z, INFO] *   150+  150                        12074.8473    14506.5697            20.14%
+[2018-11-20T14:06:26Z, INFO] *   150+  150                        12189.4945    14506.5697            19.01%
+[2018-11-20T14:06:26Z, INFO] *   150+  150                        12414.0551    14506.5697            16.86%
+[2018-11-20T14:06:26Z, INFO] *   150+  150                        12423.3284    14506.5697            16.77%
+[2018-11-20T14:06:26Z, INFO] *   150+  150                        12536.3477    14506.5697            15.72%
+[2018-11-20T14:06:26Z, INFO] *   150+  150                        12544.3508    14506.5697            15.64%
+[2018-11-20T14:06:26Z, INFO] *   150+  150                        12591.7962    14506.5697            15.21%
+[2018-11-20T14:06:27Z, INFO]     150   152    14489.6971   355    12591.7962    14506.5697    20487   15.21%
+[2018-11-20T14:06:27Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:06:27Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 3
+[2018-11-20T14:06:27Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:06:27Z, INFO] ------kpi- KPI.shortagePenaltyKPI 1483
+[2018-11-20T14:06:27Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:06:27Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 163.5
+[2018-11-20T14:06:27Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:06:27Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 68
+[2018-11-20T14:06:27Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:06:27Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:06:27Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:06:27Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:06:27Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:06:27Z, INFO] Initialization of TResults.
+[2018-11-20T14:06:27Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:06:27Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:06:27Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:06:27Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:06:27Z, INFO] Initialization of Results.
+[2018-11-20T14:06:27Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:06:27Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:06:27Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:06:27Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 3
+[2018-11-20T14:06:27Z, INFO] ------kpi- KPI.shortagePenaltyKPI 1483
+[2018-11-20T14:06:27Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 163.5
+[2018-11-20T14:06:27Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 68
+[2018-11-20T14:06:27Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:06:27Z, INFO] attachment : kpis.csv
+[2018-11-20T14:06:27Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:06:27Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:06:27Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:06:27Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:06:27Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:06:27Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:06:27Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:06:27Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:06:27Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:06:27Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:06:27Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:06:27Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:06:27Z, INFO] Initialization of TResults.
+[2018-11-20T14:06:27Z, INFO] Initialization of Results.
+[2018-11-20T14:06:27Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:06:27Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:06:27Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:06:27Z, INFO] attachment : unitsShortage.csv
+[2018-11-20T14:06:27Z, INFO] attachment : GroupOnShelfPlacement.csv
+[2018-11-20T14:06:27Z, INFO] attachment : GroupFacings.csv
+[2018-11-20T14:06:27Z, INFO] attachment : SKUOnShelfPlacement.csv
+[2018-11-20T14:06:27Z, INFO] attachment : Results.csv
+[2018-11-20T14:06:27Z, INFO] attachment : emptySpaceOnShelf.csv
+[2018-11-20T14:06:27Z, INFO]     195   195    14450.1596   256    12591.7962    14506.5697    22947   15.21%
+[2018-11-20T14:06:27Z, INFO] *   200+  198                        13737.7801    14506.5697             5.60%
+[2018-11-20T14:06:28Z, INFO] *   200+  198                        13820.8752    14506.5697             4.96%
+[2018-11-20T14:06:28Z, INFO] *   200+  198                        13965.0711    14506.5697             3.88%
+[2018-11-20T14:06:28Z, INFO] *   200+  198                        13985.0711    14506.5697             3.73%
+[2018-11-20T14:06:28Z, INFO] *   200+  198                        14009.8364    14506.5697             3.55%
+[2018-11-20T14:06:28Z, INFO] *   200+  198                        14042.0307    14506.5697             3.31%
+[2018-11-20T14:06:28Z, INFO] *   200+  198                        14047.2244    14506.5697             3.27%
+[2018-11-20T14:06:28Z, INFO]     200   200    14449.4223   249    14047.2244    14506.5697    23482    3.27%
+[2018-11-20T14:06:28Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:06:28Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 9
+[2018-11-20T14:06:28Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:06:28Z, INFO] ------kpi- KPI.shortagePenaltyKPI 1483
+[2018-11-20T14:06:28Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:06:28Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 127.0
+[2018-11-20T14:06:28Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:06:28Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 69
+[2018-11-20T14:06:28Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:06:28Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:06:28Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:06:28Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:06:28Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:06:28Z, INFO] Initialization of TResults.
+[2018-11-20T14:06:28Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:06:28Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:06:28Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:06:28Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:06:28Z, INFO] Initialization of Results.
+[2018-11-20T14:06:28Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:06:28Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:06:28Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:06:28Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 9
+[2018-11-20T14:06:28Z, INFO] ------kpi- KPI.shortagePenaltyKPI 1483
+[2018-11-20T14:06:28Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 127.0
+[2018-11-20T14:06:28Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 69
+[2018-11-20T14:06:28Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:06:28Z, INFO] attachment : kpis.csv
+[2018-11-20T14:06:28Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:06:28Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:06:28Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:06:28Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:06:28Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:06:28Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:06:28Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:06:28Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:06:28Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:06:28Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:06:28Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:06:28Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:06:28Z, INFO] Initialization of TResults.
+[2018-11-20T14:06:28Z, INFO] Initialization of Results.
+[2018-11-20T14:06:28Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:06:28Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:06:28Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:06:28Z, INFO] attachment : unitsShortage.csv
+[2018-11-20T14:06:28Z, INFO] attachment : GroupOnShelfPlacement.csv
+[2018-11-20T14:06:28Z, INFO] attachment : GroupFacings.csv
+[2018-11-20T14:06:28Z, INFO] attachment : SKUOnShelfPlacement.csv
+[2018-11-20T14:06:28Z, INFO] attachment : Results.csv
+[2018-11-20T14:06:28Z, INFO] attachment : emptySpaceOnShelf.csv
+[2018-11-20T14:06:29Z, INFO] *   250+  248                        14115.0611    14506.5697             2.77%
+[2018-11-20T14:06:29Z, INFO]     250   250    14405.8260   157    14115.0611    14506.5697    25309    2.77%
+[2018-11-20T14:06:29Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:06:29Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 4.5
+[2018-11-20T14:06:29Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:06:29Z, INFO] ------kpi- KPI.shortagePenaltyKPI 1477
+[2018-11-20T14:06:29Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:06:29Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 131.5
+[2018-11-20T14:06:29Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:06:29Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 71
+[2018-11-20T14:06:29Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:06:29Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:06:29Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:06:29Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:06:29Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:06:29Z, INFO] Initialization of TResults.
+[2018-11-20T14:06:29Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:06:29Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:06:29Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:06:29Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:06:29Z, INFO] Initialization of Results.
+[2018-11-20T14:06:29Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:06:29Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:06:29Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:06:29Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 4.5
+[2018-11-20T14:06:29Z, INFO] ------kpi- KPI.shortagePenaltyKPI 1477
+[2018-11-20T14:06:29Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 131.5
+[2018-11-20T14:06:29Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 71
+[2018-11-20T14:06:29Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:06:29Z, INFO] attachment : kpis.csv
+[2018-11-20T14:06:29Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:06:29Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:06:29Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:06:29Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:06:29Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:06:29Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:06:29Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:06:29Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:06:29Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:06:29Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:06:29Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:06:29Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:06:29Z, INFO] Initialization of TResults.
+[2018-11-20T14:06:29Z, INFO] Initialization of Results.
+[2018-11-20T14:06:29Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:06:29Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:06:29Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:06:29Z, INFO] attachment : unitsShortage.csv
+[2018-11-20T14:06:29Z, INFO] attachment : GroupOnShelfPlacement.csv
+[2018-11-20T14:06:29Z, INFO] attachment : GroupFacings.csv
+[2018-11-20T14:06:29Z, INFO] attachment : SKUOnShelfPlacement.csv
+[2018-11-20T14:06:29Z, INFO] attachment : Results.csv
+[2018-11-20T14:06:29Z, INFO] attachment : emptySpaceOnShelf.csv
+[2018-11-20T14:06:31Z, INFO] *   350+  331                        14180.8772    14506.5697             2.30%
+[2018-11-20T14:06:31Z, INFO]     350   330    14180.8772     0    14180.8772    14506.5697    27170    2.30%
+[2018-11-20T14:06:31Z, INFO] Elapsed time = 18.79 sec. (12988.03 ticks, tree = 9.96 MB, solutions = 28)
+[2018-11-20T14:06:31Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:06:31Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 1
+[2018-11-20T14:06:31Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:06:31Z, INFO] ------kpi- KPI.shortagePenaltyKPI 1471
+[2018-11-20T14:06:31Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:06:31Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 111.5
+[2018-11-20T14:06:31Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:06:31Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 69
+[2018-11-20T14:06:31Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:06:31Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:06:31Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:06:31Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:06:31Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:06:31Z, INFO] Initialization of TResults.
+[2018-11-20T14:06:31Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:06:31Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:06:31Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:06:31Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:06:31Z, INFO] Initialization of Results.
+[2018-11-20T14:06:31Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:06:31Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:06:31Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:06:31Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 1
+[2018-11-20T14:06:31Z, INFO] ------kpi- KPI.shortagePenaltyKPI 1471
+[2018-11-20T14:06:31Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 111.5
+[2018-11-20T14:06:31Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 69
+[2018-11-20T14:06:31Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:06:31Z, INFO] attachment : kpis.csv
+[2018-11-20T14:06:31Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:06:31Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:06:31Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:06:31Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:06:31Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:06:31Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:06:31Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:06:31Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:06:31Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:06:31Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:06:31Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:06:31Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:06:31Z, INFO] Initialization of TResults.
+[2018-11-20T14:06:31Z, INFO] Initialization of Results.
+[2018-11-20T14:06:31Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:06:31Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:06:31Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:06:31Z, INFO] attachment : unitsShortage.csv
+[2018-11-20T14:06:31Z, INFO] attachment : GroupOnShelfPlacement.csv
+[2018-11-20T14:06:31Z, INFO] attachment : GroupFacings.csv
+[2018-11-20T14:06:31Z, INFO] attachment : SKUOnShelfPlacement.csv
+[2018-11-20T14:06:31Z, INFO] attachment : Results.csv
+[2018-11-20T14:06:31Z, INFO] attachment : emptySpaceOnShelf.csv
+[2018-11-20T14:06:34Z, INFO]     400   376    14501.6800   357    14180.8772    14506.5697    30686    2.30%
+[2018-11-20T14:06:36Z, INFO]     450   426    14489.4326   264    14180.8772    14506.5697    34078    2.30%
+[2018-11-20T14:06:37Z, INFO]     474   448    14440.8187   212    14180.8772    14506.5697    35606    2.30%
+[2018-11-20T14:06:40Z, INFO]     475   449    14506.4353   495    14180.8772    14506.5673    35987    2.30%
+[2018-11-20T14:06:40Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:06:40Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 1
+[2018-11-20T14:06:40Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:06:40Z, INFO] ------kpi- KPI.shortagePenaltyKPI 1471
+[2018-11-20T14:06:40Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:06:40Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 111.5
+[2018-11-20T14:06:40Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:06:40Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 69
+[2018-11-20T14:06:40Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:06:40Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:06:40Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:06:40Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:06:40Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:06:40Z, INFO] Initialization of TResults.
+[2018-11-20T14:06:40Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:06:40Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:06:40Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:06:40Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:06:40Z, INFO] Initialization of Results.
+[2018-11-20T14:06:40Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:06:40Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:06:40Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:06:40Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 1
+[2018-11-20T14:06:40Z, INFO] ------kpi- KPI.shortagePenaltyKPI 1471
+[2018-11-20T14:06:40Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 111.5
+[2018-11-20T14:06:40Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 69
+[2018-11-20T14:06:40Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:06:40Z, INFO] attachment : kpis.csv
+[2018-11-20T14:06:40Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:06:40Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:06:40Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:06:40Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:06:40Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:06:40Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:06:40Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:06:40Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:06:40Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:06:40Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:06:40Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:06:40Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:06:40Z, INFO] Initialization of TResults.
+[2018-11-20T14:06:40Z, INFO] Initialization of Results.
+[2018-11-20T14:06:40Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:06:40Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:06:40Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:06:40Z, INFO] attachment : unitsShortage.csv
+[2018-11-20T14:06:40Z, INFO] attachment : GroupOnShelfPlacement.csv
+[2018-11-20T14:06:40Z, INFO] attachment : GroupFacings.csv
+[2018-11-20T14:06:40Z, INFO] attachment : SKUOnShelfPlacement.csv
+[2018-11-20T14:06:40Z, INFO] attachment : Results.csv
+[2018-11-20T14:06:40Z, INFO] attachment : emptySpaceOnShelf.csv
+[2018-11-20T14:06:42Z, INFO]     476   450    14506.5487   503    14180.8772    14506.5673    36042    2.30%
+[2018-11-20T14:07:01Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:07:01Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 1
+[2018-11-20T14:07:01Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:07:01Z, INFO] ------kpi- KPI.shortagePenaltyKPI 1471
+[2018-11-20T14:07:01Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:07:01Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 111.5
+[2018-11-20T14:07:01Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:07:01Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 69
+[2018-11-20T14:07:01Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:07:01Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:07:01Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:07:01Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:07:01Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:07:01Z, INFO] Initialization of TResults.
+[2018-11-20T14:07:01Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:07:01Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:07:01Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:07:01Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:07:01Z, INFO] Initialization of Results.
+[2018-11-20T14:07:01Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:07:01Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:07:01Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:07:01Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 1
+[2018-11-20T14:07:01Z, INFO] ------kpi- KPI.shortagePenaltyKPI 1471
+[2018-11-20T14:07:01Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 111.5
+[2018-11-20T14:07:01Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 69
+[2018-11-20T14:07:01Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:07:01Z, INFO] attachment : kpis.csv
+[2018-11-20T14:07:01Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:07:01Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:07:01Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:07:01Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:07:01Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:07:01Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:07:01Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:07:01Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:07:01Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:07:01Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:07:01Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:07:01Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:07:01Z, INFO] Initialization of TResults.
+[2018-11-20T14:07:01Z, INFO] Initialization of Results.
+[2018-11-20T14:07:01Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:07:01Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:07:01Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:07:01Z, INFO] attachment : unitsShortage.csv
+[2018-11-20T14:07:01Z, INFO] attachment : GroupOnShelfPlacement.csv
+[2018-11-20T14:07:01Z, INFO] attachment : GroupFacings.csv
+[2018-11-20T14:07:01Z, INFO] attachment : SKUOnShelfPlacement.csv
+[2018-11-20T14:07:01Z, INFO] attachment : Results.csv
+[2018-11-20T14:07:01Z, INFO] attachment : emptySpaceOnShelf.csv
+[2018-11-20T14:07:01Z, INFO]     477   451    14505.3135   606    14180.8772    14505.3135    51891    2.29%
+[2018-11-20T14:07:01Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:07:01Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 1
+[2018-11-20T14:07:01Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:07:01Z, INFO] ------kpi- KPI.shortagePenaltyKPI 1471
+[2018-11-20T14:07:01Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:07:01Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 111.5
+[2018-11-20T14:07:01Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:07:01Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 69
+[2018-11-20T14:07:01Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:07:01Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:07:01Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:07:01Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:07:01Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:07:01Z, INFO] Initialization of TResults.
+[2018-11-20T14:07:01Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:07:01Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:07:01Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:07:01Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:07:01Z, INFO] Initialization of Results.
+[2018-11-20T14:07:01Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:07:01Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:07:01Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:07:01Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 1
+[2018-11-20T14:07:01Z, INFO] ------kpi- KPI.shortagePenaltyKPI 1471
+[2018-11-20T14:07:01Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 111.5
+[2018-11-20T14:07:01Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 69
+[2018-11-20T14:07:01Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:07:01Z, INFO] attachment : kpis.csv
+[2018-11-20T14:07:01Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:07:01Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:07:01Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:07:01Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:07:01Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:07:01Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:07:01Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:07:01Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:07:01Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:07:01Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:07:01Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:07:01Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:07:01Z, INFO] Initialization of TResults.
+[2018-11-20T14:07:01Z, INFO] Initialization of Results.
+[2018-11-20T14:07:01Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:07:01Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:07:01Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:07:01Z, INFO] attachment : unitsShortage.csv
+[2018-11-20T14:07:01Z, INFO] attachment : GroupOnShelfPlacement.csv
+[2018-11-20T14:07:01Z, INFO] attachment : GroupFacings.csv
+[2018-11-20T14:07:01Z, INFO] attachment : SKUOnShelfPlacement.csv
+[2018-11-20T14:07:01Z, INFO] attachment : Results.csv
+[2018-11-20T14:07:01Z, INFO] attachment : emptySpaceOnShelf.csv
+[2018-11-20T14:07:02Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:07:02Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 1
+[2018-11-20T14:07:02Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:07:02Z, INFO] ------kpi- KPI.shortagePenaltyKPI 1471
+[2018-11-20T14:07:02Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:07:02Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 111.5
+[2018-11-20T14:07:02Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:07:02Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 69
+[2018-11-20T14:07:02Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:07:02Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:07:02Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:07:02Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:07:02Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:07:02Z, INFO] Initialization of TResults.
+[2018-11-20T14:07:02Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:07:02Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:07:02Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:07:02Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:07:02Z, INFO] Initialization of Results.
+[2018-11-20T14:07:02Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:07:02Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:07:02Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:07:02Z, INFO] ------kpi- KPI.emptySpacePenaltyKPI 1
+[2018-11-20T14:07:02Z, INFO] ------kpi- KPI.shortagePenaltyKPI 1471
+[2018-11-20T14:07:02Z, INFO] ------kpi- KPI.rectangularityPenaltyKPI 111.5
+[2018-11-20T14:07:02Z, INFO] ------kpi- KPI.squarenessPenaltyKPI 69
+[2018-11-20T14:07:02Z, INFO] ------kpi- KPI.avgDisplayPricePenaltyKPI 0
+[2018-11-20T14:07:02Z, INFO] attachment : kpis.csv
+[2018-11-20T14:07:02Z, INFO] Initialization of SKUOnShelfPlacement.
+[2018-11-20T14:07:02Z, INFO] Initialization of TSKUOnShelfPlacement.
+[2018-11-20T14:07:02Z, INFO] Initialization of GroupFacings.
+[2018-11-20T14:07:02Z, INFO] Initialization of TGroupFacings.
+[2018-11-20T14:07:02Z, INFO] Initialization of GroupOnShelfPlacement.
+[2018-11-20T14:07:02Z, INFO] Initialization of TGroupOnShelfPlacement.
+[2018-11-20T14:07:02Z, INFO] Initialization of unitsShortage.
+[2018-11-20T14:07:02Z, INFO] Initialization of TUnitsShortage.
+[2018-11-20T14:07:02Z, INFO] Initialization of emptySpaceOnShelf.
+[2018-11-20T14:07:02Z, INFO] Initialization of TEmptySpaceOnShelf.
+[2018-11-20T14:07:02Z, INFO] Initialization of squarenessPenaltyKPI.
+[2018-11-20T14:07:02Z, INFO] Initialization of shortagePenaltyKPI.
+[2018-11-20T14:07:02Z, INFO] Initialization of TResults.
+[2018-11-20T14:07:02Z, INFO] Initialization of Results.
+[2018-11-20T14:07:02Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:07:02Z, INFO] Initialization of rectangularityPenaltyKPI.
+[2018-11-20T14:07:02Z, INFO] Initialization of avgDisplayPricePenaltyKPI.
+[2018-11-20T14:07:02Z, INFO] attachment : unitsShortage.csv
+[2018-11-20T14:07:02Z, INFO] attachment : GroupOnShelfPlacement.csv
+[2018-11-20T14:07:02Z, INFO] attachment : GroupFacings.csv
+[2018-11-20T14:07:02Z, INFO] attachment : SKUOnShelfPlacement.csv
+[2018-11-20T14:07:02Z, INFO] attachment : Results.csv
+[2018-11-20T14:07:02Z, INFO] attachment : emptySpaceOnShelf.csv
+[2018-11-20T14:07:02Z, INFO]     482   453    14504.6849   549    14180.8772    14505.2454    53093    2.29%
+[2018-11-20T14:07:04Z, INFO]     487   455    14503.5842   582    14180.8772    14505.2454    57824    2.29%
+[2018-11-20T14:07:05Z, INFO]     495   458    14502.0907   547    14180.8772    14505.2454    61320    2.29%
+[2018-11-20T14:07:07Z, INFO]     506   464    14500.9013   448    14180.8772    14505.2454    63661    2.29%
+[2018-11-20T14:07:07Z, INFO] Elapsed time = 55.09 sec. (38147.17 ticks, tree = 13.28 MB, solutions = 28)
+[2018-11-20T14:07:09Z, INFO]     510   468    14499.9077   372    14180.8772    14505.2454    65405    2.29%
+[2018-11-20T14:07:10Z, INFO]     526   475    14498.4069   321    14180.8772    14505.2454    67019    2.29%
+[2018-11-20T14:07:13Z, INFO]     527   476    14498.3077   338    14180.8772    14505.2454    68180    2.29%
+[2018-11-20T14:07:15Z, INFO] Initialization of emptySpacePenaltyKPI.
+[2018-11-20T14:07:15Z, SEVERE] : Processing aborted.
+[2018-11-20T14:07:15Z, SEVERE] : Processing failed.
+[2018-11-20T14:07:15Z, SEVERE] 427:36-427:77 model.mod: Invalid initialization expression for element "emptySpacePenaltyKPI".
+[2018-11-20T14:07:15Z, SEVERE] 427:36-427:77 model.mod: Processing failed.
+[2018-11-20T14:07:15Z, SEVERE] Processing failed.
